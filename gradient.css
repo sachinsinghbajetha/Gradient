@@ -1,36 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap");
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-family: 'Quicksand', sans-serif;
-  background-color: black;
- }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Quicksand", sans-serif;
+    background-color: black;
+}
 
 h1 {
-  background: linear-gradient(-40deg, #12c2e9, #c471ed, coral, cornflowerblue, #FF0080);
-  background-clip: text;
-  color: transparent;
-  background-size: 200%;
-  animation: gradient 3s linear infinite alternate;
-  font-size: 6rem;
-  text-transform: uppercase;
-  letter-spacing: 2rem;
+    background: linear-gradient(-40deg, #12c2e9, #c471ed, coral, cornflowerblue, #ff0080);
+    background-clip: text;
+    color: transparent;
+    background-size: 200%;
+    animation: gradient 3s linear infinite alternate;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
 }
 
 @keyframes gradient {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 100%;
-  }
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
 }
